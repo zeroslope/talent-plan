@@ -1,0 +1,12 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+authors = ["zeroslope <jsx55242@foxmail.com>"]
+description = "A key-value store"
+edition = "2018"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assert_cmd = "1.0.7"
+predicates = "2.0.0"
+structopt = "0.3.22"
