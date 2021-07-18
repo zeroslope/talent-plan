@@ -28,9 +28,9 @@ enum Command {
 fn main() {
     let opt = Opt::from_args();
     match opt.cmd {
-        Command::Set { key, value } => unimplemented(),
-        Command::Get { key } => unimplemented(),
-        Command::Remove { key } => unimplemented(),
+        Command::Set { key: _, value: _ } => unimplemented(),
+        Command::Get { key: _ } => unimplemented(),
+        Command::Remove { key: _ } => unimplemented(),
     }
 }
 
