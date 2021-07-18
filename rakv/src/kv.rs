@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 
 /// The `KvStore` stores string key/value pairs.
+#[derive(Default)]
 pub struct KvStore {
     db: HashMap<String, String>,
 }
